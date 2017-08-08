@@ -1,0 +1,24 @@
+{
+  "name": "note-server",
+  "version": "1.0.0",
+  "description": "笔记服务",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiasaichao/note-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiasaichao/note-server/issues"
+  },
+  "homepage": "https://github.com/jiasaichao/note-server#readme",
+  "dependencies": {
+    "ip": "^1.1.5",
+    "koa": "^2.3.0"
+  }
+}
